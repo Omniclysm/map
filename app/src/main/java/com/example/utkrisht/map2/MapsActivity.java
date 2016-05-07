@@ -52,11 +52,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private LocationListener locationListener;
     private Location currLocation;
     private LocationChecker locationChecker;
-    private HashMap myFavLocs;
     public Marker marker;
     public Button addFavLocation;
     public EditText nameLocation;
-    public float check = (float) 160.934;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
